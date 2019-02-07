@@ -1,10 +1,10 @@
-import React from 'react'
-import propTypes from 'prop-types'
+import React from "react"
+import propTypes from "prop-types"
 
 const Button = ({ text, onClick }) => (
-    <button onClick={onClick} type="button">
-      {text}
-    </button>
+  <button onClick={onClick} type="button">
+    {text}
+  </button>
 )
 
 Button.propTypes = {
