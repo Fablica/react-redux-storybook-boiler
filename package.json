@@ -1,10 +1,11 @@
 {
-  "name": "react-story",
+  "name": "react-redux-storybook-boiler",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
     "history": "^4.7.2",
+    "lodash": "^4.17.11",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "react-redux": "^6.0.0",
@@ -18,7 +19,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom --coverage",
-    "lint": "eslint --fix src/**/*.js",
+    "lint": "eslint --ext .js,.jsx --fix src/",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public"
   },
@@ -50,6 +51,7 @@
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-standard": "^4.0.0",
-    "prettier": "^1.16.4"
+    "prettier": "^1.16.4",
+    "redux-logger": "^3.0.6"
   }
 }
