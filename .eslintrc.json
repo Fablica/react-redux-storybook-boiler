@@ -1,9 +1,7 @@
 {
-  "eslint.autoFixOnSave": true,
   "extends": [
     "standard",
-    "plugin:prettier/recommended",
-    "parser:babel-eslint"
+    "plugin:prettier/recommended"
   ],
   "plugins": [
     "react",
