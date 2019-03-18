@@ -1,19 +1,19 @@
-import React from "react"
-import ReactDOM from "react-dom"
-import { Provider } from "react-redux"
-import { Router, Route, Switch } from "react-router-dom"
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {Provider} from 'react-redux';
+import {Router, Route, Switch} from 'react-router-dom';
 
 /** default css */
-import "./index.css"
+import './index.css';
 
 /** helpers */
-import history from "./helpers/history"
-import store from "./helpers/store"
-import * as serviceWorker from "./helpers/serviceWorker"
+import history from './helpers/history';
+import store from './helpers/store';
+import * as serviceWorker from './helpers/serviceWorker';
 
 /** components */
-import App from "./components/App/App"
-import Hello from "./components/Hello/Hello"
+import App from './components/App/App';
+import Hello from './components/Hello/Hello';
 
 ReactDOM.render(
   <Provider store={store}>
@@ -26,7 +26,7 @@ ReactDOM.render(
       </div>
     </Router>
   </Provider>,
-  document.getElementById("root")
-)
+  document.getElementById('root')
+);
 
-serviceWorker.unregister()
+serviceWorker.unregister();
